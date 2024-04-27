@@ -42,6 +42,16 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
                 .excludePathPatterns("/admin/employee/login");
     }
 
+
+    /**
+     * 设置静态资源映射
+     * @param registry
+     */
+    protected void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/doc.html").addResourceLocations("classpath:/META-INF/resources/");
+        registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
+    }
+
     /**
      * 通过knife4j生成接口文档
      * @return
@@ -62,25 +72,16 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
         return docket;
     }
 
+
     /**
-     * 设置静态资源映射
-     * @param registry
-     */
-    protected void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/doc.html").addResourceLocations("classpath:/META-INF/resources/");
-        registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
-    }
-    /** * 扩展mvc框架的消息转换器 * @param converters */
-    /**
-     *
-     *
+     *扩展mvc框架的消息转换器
      * @param converters
      */
     protected void extendMessageConverters(List<HttpMessageConverter<?>> converters) {
         log.info("开始扩展消息转换器...");
-        //创建一个消息转化器对象
+        //创建一个消息转化器对象
         MappingJackson2HttpMessageConverter converter = new MappingJackson2HttpMessageConverter();
-        //设置对象转换器，可以将Java对象转为json字符串
+        //设置对象转换器，可以将Java对象转为json字符串
         converter.setObjectMapper(new JacksonObjectMapper());
         //将我们自己的转换器放入spring MVC框架的容器中
         converters.add(0,converter);
