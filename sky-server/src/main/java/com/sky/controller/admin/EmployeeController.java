@@ -13,6 +13,7 @@ import com.sky.utils.JwtUtil;
 import com.sky.vo.EmployeeLoginVO;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -39,6 +40,7 @@ public class EmployeeController {
      * @return
      */
     @PostMapping("/login")
+    @ApiOperation("登录")
     public Result<EmployeeLoginVO> login(@RequestBody EmployeeLoginDTO employeeLoginDTO) {
         log.info("员工登录：{}", employeeLoginDTO);
 
@@ -68,20 +70,64 @@ public class EmployeeController {
      * @return
      */
     @PostMapping("/logout")
+    @ApiOperation("登出")
     public Result<String> logout() {
         return Result.success();
     }
+
+
+
     @PostMapping
+    @ApiOperation("注册员工信息")
     public  Result register(@RequestBody EmployeeDTO e){
         employeeService.save(e);
         return Result.success();
     }
+
+
+
     @GetMapping("/page")
     @ApiOperation("员工分页管理")
     public Result<PageResult> pageQuery(EmployeePageQueryDTO employeePageQueryDTO){
         log.info("员工分页管理");
         PageResult pageResult = employeeService.pageQuery(employeePageQueryDTO);
         return Result.success(pageResult);
+    }
+
+    /**
+     * 启用或禁用员工账号
+     * @param status
+     * @param id
+     * @return
+     */
+    @PostMapping("/{status}")
+    @ApiOperation("启用或禁用员工账号")
+    public Result StartOrStop(@PathVariable Integer status,Long id){
+        //封装成employee进行update操作
+        Employee employee = Employee.builder()
+                .status(status)
+                .id(id)
+                .build();
+        employeeService.update(employee);
+        return Result.success();
+
+
+    }
+
+    @GetMapping("/{id}")
+    @ApiOperation("根据id查询员工")
+    public Result<Employee> getById(@PathVariable Long id){
+        return Result.success(employeeService.getById(id));
+    }
+
+
+    @PutMapping
+    @ApiOperation("修改员工信息")
+    public Result update(@RequestBody EmployeeDTO employeeDTO){
+        Employee employee=new Employee();
+        BeanUtils.copyProperties(employeeDTO,employee);
+        employeeService.update(employee);
+        return Result.success();
     }
 
 }
