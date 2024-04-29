@@ -11,7 +11,7 @@ import com.sky.entity.Category;
 import com.sky.exception.DeletionNotAllowedException;
 import com.sky.mapper.CategoryMapper;
 import com.sky.mapper.DishMapper;
-import com.sky.mapper.SetmealMapper;
+import com.sky.mapper.SetMealMapper;
 import com.sky.result.PageResult;
 import com.sky.service.CategoryService;
 import lombok.extern.slf4j.Slf4j;
@@ -33,7 +33,7 @@ public class CategoryServiceImpl implements CategoryService {
     @Autowired
     private DishMapper dishMapper;
     @Autowired
-    private SetmealMapper setmealMapper;
+    private SetMealMapper setmealMapper;
 
     /**
      * 新增分类
@@ -48,10 +48,6 @@ public class CategoryServiceImpl implements CategoryService {
         category.setStatus(StatusConstant.DISABLE);
 
         //设置创建时间、修改时间、创建人、修改人
-        category.setCreateTime(LocalDateTime.now());
-        category.setUpdateTime(LocalDateTime.now());
-        category.setCreateUser(BaseContext.getCurrentId());
-        category.setUpdateUser(BaseContext.getCurrentId());
 
         categoryMapper.insert(category);
     }
