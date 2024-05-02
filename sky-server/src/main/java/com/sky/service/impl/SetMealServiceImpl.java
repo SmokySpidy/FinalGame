@@ -13,6 +13,7 @@ import com.sky.mapper.SetMealDishMapper;
 import com.sky.mapper.SetMealMapper;
 import com.sky.result.PageResult;
 import com.sky.service.SetMealService;
+import com.sky.vo.DishItemVO;
 import com.sky.vo.DishVO;
 import com.sky.vo.SetmealVO;
 import org.springframework.beans.BeanUtils;
@@ -91,5 +92,15 @@ public class SetMealServiceImpl implements SetMealService {
 
         //如果都符合要求，则根据id删除套餐
         setMealMapper.deleteByIds(ids);
+    }
+
+    @Override
+    public List<Setmeal> getByCategoryId(Long categoryId) {
+        return setMealMapper.getByCategoryId(categoryId);
+    }
+
+    @Override
+    public List<DishItemVO> getDishesById(Long setMealId) {
+        return setMealMapper.getBySetmealId(setMealId);
     }
 }

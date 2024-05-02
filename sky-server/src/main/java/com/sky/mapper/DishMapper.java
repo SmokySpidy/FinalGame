@@ -39,8 +39,8 @@ public interface DishMapper {
     void deleteBatch(List<Long> ids);
 
     DishVO getById(Long id);
-    @Select("select * from dish where category_id=#{categoryId}")
-    List<Dish> getByCategoryId(Long categoryId);
+
+    List<DishVO> getByCategoryId(Long categoryId);
 
     Integer countByUnsaledDishes(List<Long> dishIds);
 }

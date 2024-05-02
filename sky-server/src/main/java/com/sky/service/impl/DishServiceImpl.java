@@ -20,6 +20,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.function.Consumer;
 
 @Service
 @Transactional
@@ -101,7 +102,9 @@ public class DishServiceImpl implements DishService {
     }
 
     @Override
-    public List<Dish> getByCategoryId(Long categoryId) {
-        return dishMapper.getByCategoryId(categoryId);
+    public List<DishVO> getByCategoryId(Long categoryId) {
+        List<DishVO> dishVOS=dishMapper.getByCategoryId(categoryId);
+        dishVOS.forEach(dishVO-> dishVO.setFlavors(dishFlavorMapper.getByDishId(dishVO.getId())));
+        return dishVOS;
     }
 }

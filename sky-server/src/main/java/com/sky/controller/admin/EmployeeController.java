@@ -102,7 +102,7 @@ public class EmployeeController {
      * @param id
      * @return
      */
-    @PostMapping("/{status}")
+    @PostMapping("/status/{status}")
     @ApiOperation("启用或禁用员工账号")
     public Result StartOrStop(@PathVariable Integer status,Long id){
         //封装成employee进行update操作
