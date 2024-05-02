@@ -11,6 +11,9 @@ sky:
     access-key-secret: qHBNfiI4AOIPBHKnx6aoxR4Ed6UK7H
     endpoint: oss-cn-beijing.aliyuncs.com
     bucket-name: yun-0428
+  wechat:
+    appid: wxfd817975735e0085
+    secret: 231d3289f4f1eb31075ab0ec9fc30760
 
 spring:
   redis:
