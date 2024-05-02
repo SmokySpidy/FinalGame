@@ -18,29 +18,70 @@ import java.util.List;
 public interface DishMapper {
 
     /**
-     * 根据分类id查询菜品数量
+     * 1.根据分类id查询菜品数量
      * @param categoryId
      * @return
      */
     @Select("select count(id) from dish where category_id = #{categoryId}")
     Integer countByCategoryId(Long categoryId);
 
+
+    /**
+     * 2.新增菜品
+     * @param dish
+     */
     @AutoFill(value = OperationType.INSERT)
     void insert(Dish dish);
 
+
+    /**
+     * 3.菜品的分页查询
+     * @param dishPageQueryDTO
+     * @return
+     */
     Page<DishVO> pageQuery(DishPageQueryDTO dishPageQueryDTO);
+
+    /**
+     * 4.修改菜品
+     * @param dish
+     */
     @AutoFill(value = OperationType.UPDATE)
     void update(Dish dish);
 
+
+    /**
+     * 5.根据菜品id删除菜品
+     * @param id
+     */
     @Delete("delete from dish where id=#{id}")
     void deleteById(Long id);
-    List<Long> selectOnStart(List<Long> ids);
 
+    /**
+     * 6.根据菜品id们找出正在售卖的菜品list
+     * @param ids
+     * @return
+     */
+    List<Dish> selectOnStart(List<Long> ids);
+
+    /**
+     *7. 删除一系列的菜品
+     * @param ids
+     */
     void deleteBatch(List<Long> ids);
 
+    /**
+     * 根据菜品id查询菜品，之所以返回dishvo是因为比dish多了categoryName，flavors等属性
+     * @param id
+     * @return
+     */
     DishVO getById(Long id);
 
+    /**
+     * 根据分类id查询所有的菜品，之所以返回dishvo是因为比dish多了categoryName，flavors等属性
+     * @param categoryId
+     * @return
+     */
     List<DishVO> getByCategoryId(Long categoryId);
 
-    Integer countByUnsaledDishes(List<Long> dishIds);
+
 }

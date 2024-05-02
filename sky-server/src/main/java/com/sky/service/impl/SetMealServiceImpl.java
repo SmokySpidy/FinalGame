@@ -4,6 +4,7 @@ import com.github.pagehelper.Page;
 import com.sky.constant.MessageConstant;
 import com.sky.dto.SetmealDTO;
 import com.sky.dto.SetmealPageQueryDTO;
+import com.sky.entity.Dish;
 import com.sky.entity.Setmeal;
 import com.sky.entity.SetmealDish;
 import com.sky.exception.DeletionNotAllowedException;
@@ -39,7 +40,8 @@ public class SetMealServiceImpl implements SetMealService {
         List<Long> dishIds=new ArrayList<>();
         List<SetmealDish> setmealDishes = setmealDTO.getSetmealDishes();
         setmealDishes.forEach(setmealDish -> dishIds.add(setmealDish.getDishId()));
-        Integer count=dishMapper.countByUnsaledDishes(dishIds);
+        List<Dish> dishes = dishMapper.selectOnStart(dishIds);
+        Integer count=dishIds.size()-dishes.size();
         if(count>0){
             throw new DeletionNotAllowedException(MessageConstant.SETMEAL_ENABLE_FAILED);
         }

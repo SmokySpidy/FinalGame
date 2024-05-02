@@ -17,19 +17,60 @@ import java.util.List;
 @Mapper
 public interface SetMealMapper {
 
-
+    /**
+     * 插入一条套餐数据
+     * @param setmeal
+     */
     @AutoFill(OperationType.INSERT)
     void insert(Setmeal setmeal);
-    @Select("select  count(*) from setmeal  where category_id=#{id} group by category_id")
+
+    /**
+     *查询该分类下所有的套餐数量
+     * @param id
+     * @return
+     */
+    @Select("select  count(*) from setmeal  where category_id=#{id}")
     Integer countByCategoryId(Long id);
+
+    /**
+     * 套餐的分页查询
+     * @param setmealPageQueryDTO
+     * @return
+     */
     Page<SetmealVO> pageQuery(SetmealPageQueryDTO setmealPageQueryDTO);
+
+    /**
+     * 根据id查询套餐，带有分类名字，以及关联的菜品
+     * @param id
+     * @return
+     */
     SetmealVO getById(Long id);
+
+    /**
+     * 更新套餐
+     * @param setmeal
+     */
     @AutoFill(OperationType.UPDATE)
     void update(Setmeal setmeal);
 
+    /**
+     * 查询正在售卖的套餐数量
+     * @param ids
+     * @return
+     */
     Integer countBySetmealIds(List<Long> ids);
 
+    /**
+     * 删除多组套餐
+     * @param ids
+     */
     void deleteByIds(List<Long> ids);
+
+    /**
+     * 根据分类id查询套餐列表
+     * @param categoryId
+     * @return
+     */
     @Select("select * from setmeal where category_id=#{categoryId}")
     List<Setmeal> getByCategoryId(Long categoryId);
     /**

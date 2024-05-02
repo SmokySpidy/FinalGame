@@ -78,7 +78,7 @@ public class DishServiceImpl implements DishService {
     public void deleteByIds(List<Long> ids) {
         //1.判断当前ids里面是否有正在起售的菜品，有的话不能删除
         //select id from dish where status=1 and id in ()
-        List<Long> list = dishMapper.selectOnStart(ids);
+        List<Dish> list = dishMapper.selectOnStart(ids);
         if(list!=null&&list.size()>0){
             throw new DeletionNotAllowedException(MessageConstant.DISH_ON_SALE);
         }
