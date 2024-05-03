@@ -52,4 +52,10 @@ public class ShoppingCartController {
         shoppingCartService.cleanShoppingCart();
         return Result.success();
     }
+    @PostMapping("/sub")
+    @ApiOperation("减少一个商品")
+    public Result cleanOne(@RequestBody ShoppingCartDTO shoppingCartDTO){
+        shoppingCartService.delShoppingCart(shoppingCartDTO);
+        return Result.success();
+    }
 }
