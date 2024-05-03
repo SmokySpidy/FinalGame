@@ -21,7 +21,12 @@ public interface SetMealService {
 
     void deleteByIds(List<Long> ids);
 
-    List<Setmeal> getByCategoryId(Long categoryId);
-
     List<DishItemVO> getDishesById(Long setMealId);
+
+    /**
+     * 条件查询
+     * @param setmeal
+     * @return
+     */
+    List<Setmeal> list(Setmeal setmeal);
 }

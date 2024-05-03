@@ -96,13 +96,15 @@ public class SetMealServiceImpl implements SetMealService {
         setMealMapper.deleteByIds(ids);
     }
 
-    @Override
-    public List<Setmeal> getByCategoryId(Long categoryId) {
-        return setMealMapper.getByCategoryId(categoryId);
-    }
+
 
     @Override
     public List<DishItemVO> getDishesById(Long setMealId) {
         return setMealMapper.getBySetmealId(setMealId);
+    }
+
+    @Override
+    public List<Setmeal> list(Setmeal setmeal) {
+        return setMealMapper.list(setmeal);
     }
 }

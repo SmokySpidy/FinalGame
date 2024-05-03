@@ -82,4 +82,11 @@ public interface SetMealMapper {
             "from setmeal_dish sd left join dish d on sd.dish_id = d.id " +
             "where sd.setmeal_id = #{setMealId}")
     List<DishItemVO> getBySetmealId(Long setMealId);
+
+    /**
+     * 动态条件查询套餐
+     * @param setmeal
+     * @return
+     */
+    List<Setmeal> list(Setmeal setmeal);
 }
