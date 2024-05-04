@@ -1,6 +1,5 @@
 package com.sky.controller.user;
 
-import com.sky.entity.Dish;
 import com.sky.result.Result;
 import com.sky.service.DishService;
 import com.sky.vo.DishVO;

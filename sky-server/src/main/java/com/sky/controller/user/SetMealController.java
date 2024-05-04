@@ -1,8 +1,6 @@
 package com.sky.controller.user;
 
-import com.sky.entity.Dish;
 import com.sky.entity.Setmeal;
-import com.sky.entity.SetmealDish;
 import com.sky.result.Result;
 import com.sky.service.SetMealService;
 import com.sky.vo.DishItemVO;
