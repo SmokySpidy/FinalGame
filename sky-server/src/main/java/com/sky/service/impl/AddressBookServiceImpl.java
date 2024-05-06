@@ -12,6 +12,7 @@ import java.util.List;
 
 @Service
 @Slf4j
+@Transactional
 public class AddressBookServiceImpl implements AddressBookService {
     @Autowired
     private AddressBookMapper addressBookMapper;

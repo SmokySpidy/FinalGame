@@ -34,7 +34,7 @@
                 and dish_flavor=#{dishFlavor}
             </if>
             <if test="setmealId!=null">
-                setmeal_id=#{setmealId}
+               and setmeal_id=#{setmealId}
             </if>
         </where>
     </delete>
