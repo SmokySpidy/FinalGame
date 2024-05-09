@@ -2,6 +2,7 @@ package com.sky.service.impl;
 
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
+import com.sky.service.DishService;
 import com.sky.constant.MessageConstant;
 import com.sky.dto.DishDTO;
 import com.sky.dto.DishPageQueryDTO;
@@ -12,7 +13,6 @@ import com.sky.mapper.DishFlavorMapper;
 import com.sky.mapper.DishMapper;
 import com.sky.mapper.SetMealDishMapper;
 import com.sky.result.PageResult;
-import com.sky.service.DishService;
 import com.sky.vo.DishVO;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -77,7 +77,7 @@ public class DishServiceImpl implements DishService {
     public void deleteByIds(List<Long> ids) {
         //1.判断当前ids里面是否有正在起售的菜品，有的话不能删除
         //select id from dish where status=1 and id in ()
-        List<Long> list = dishMapper.selectOnStart(ids);
+        List<Dish> list = dishMapper.selectOnStart(ids);
         if(list!=null&&list.size()>0){
             throw new DeletionNotAllowedException(MessageConstant.DISH_ON_SALE);
         }
@@ -101,7 +101,9 @@ public class DishServiceImpl implements DishService {
     }
 
     @Override
-    public List<Dish> getByCategoryId(Long categoryId) {
-        return dishMapper.getByCategoryId(categoryId);
+    public List<DishVO> getByCategoryId(Long categoryId) {
+        List<DishVO> dishVOS=dishMapper.getByCategoryId(categoryId);
+        dishVOS.forEach(dishVO-> dishVO.setFlavors(dishFlavorMapper.getByDishId(dishVO.getId())));
+        return dishVOS;
     }
 }

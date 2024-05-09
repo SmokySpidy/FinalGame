@@ -1,9 +1,11 @@
 package com.sky.service.impl;
 
 import com.github.pagehelper.Page;
+import com.sky.service.SetMealService;
 import com.sky.constant.MessageConstant;
 import com.sky.dto.SetmealDTO;
 import com.sky.dto.SetmealPageQueryDTO;
+import com.sky.entity.Dish;
 import com.sky.entity.Setmeal;
 import com.sky.entity.SetmealDish;
 import com.sky.exception.DeletionNotAllowedException;
@@ -12,19 +14,18 @@ import com.sky.mapper.SetMealDishMapper;
 
 import com.sky.mapper.SetMealMapper;
 import com.sky.result.PageResult;
-import com.sky.service.SetMealService;
-import com.sky.vo.DishVO;
+import com.sky.vo.DishItemVO;
 import com.sky.vo.SetmealVO;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-import java.io.Serializable;
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
 @Service
+@Transactional
 public class SetMealServiceImpl implements SetMealService {
     @Autowired
     private SetMealMapper setMealMapper;
@@ -38,7 +39,8 @@ public class SetMealServiceImpl implements SetMealService {
         List<Long> dishIds=new ArrayList<>();
         List<SetmealDish> setmealDishes = setmealDTO.getSetmealDishes();
         setmealDishes.forEach(setmealDish -> dishIds.add(setmealDish.getDishId()));
-        Integer count=dishMapper.countByUnsaledDishes(dishIds);
+        List<Dish> dishes = dishMapper.selectOnStart(dishIds);
+        Integer count=dishIds.size()-dishes.size();
         if(count>0){
             throw new DeletionNotAllowedException(MessageConstant.SETMEAL_ENABLE_FAILED);
         }
@@ -91,5 +93,17 @@ public class SetMealServiceImpl implements SetMealService {
 
         //如果都符合要求，则根据id删除套餐
         setMealMapper.deleteByIds(ids);
+    }
+
+
+
+    @Override
+    public List<DishItemVO> getDishesById(Long setMealId) {
+        return setMealMapper.getBySetmealId(setMealId);
+    }
+
+    @Override
+    public List<Setmeal> list(Setmeal setmeal) {
+        return setMealMapper.list(setmeal);
     }
 }

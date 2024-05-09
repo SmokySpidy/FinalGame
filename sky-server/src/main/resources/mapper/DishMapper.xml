@@ -60,8 +60,8 @@
         </set>
         where id=#{id}
     </update>
-    <select id="selectOnStart" resultType="java.lang.Long">
-        select id from dish where status='1' and id in
+    <select id="selectOnStart" resultType="Dish">
+        select * from dish where status='1' and id in
         <foreach collection="ids" item="id" separator="," open="(" close=")">
             #{id}
         </foreach>
@@ -75,12 +75,10 @@
     </delete>
 
     <select id="getById" resultType="com.sky.vo.DishVO">
-        select * from dish where id=#{id}
+        select dish.* ,category.name as categoryName from dish left join category on dish.category_id = category.id where dish.id=#{id}
     </select>
-    <select id="countByUnsaledDishes" resultType="java.lang.Integer">
-        select count(*) from dish where status='0' and id in
-        <foreach collection="dishIds" item="id" separator="," open="(" close=")">
-            #{id}
-        </foreach>
+
+    <select id="getByCategoryId" resultType="com.sky.vo.DishVO">
+        select dish.* ,category.name as categoryName from dish left join category on dish.category_id = category.id where category_id=#{categoryId}
     </select>
 </mapper>

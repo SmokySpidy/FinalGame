@@ -1,8 +1,6 @@
 package com.sky.controller.admin;
-import com.sky.dto.CategoryPageQueryDTO;
 import com.sky.dto.DishDTO;
 import com.sky.dto.DishPageQueryDTO;
-import com.sky.entity.Dish;
 import com.sky.result.PageResult;
 import com.sky.result.Result;
 import com.sky.service.DishService;
@@ -10,21 +8,25 @@ import com.sky.vo.DishVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
+@RestController("DishAdminController")
 @Slf4j
 @RequestMapping("/admin/dish")
 @Api(tags = "菜品相关接口")
 public class DishController {
     @Autowired
     private DishService dishService;
+    @Autowired
+    private RedisTemplate redisTemplate;
     @PostMapping
     @ApiOperation("新增菜品")
+    @CacheEvict(cacheNames = "dishCache",key = "#dishDTO.getCategoryId()")
     public Result save(@RequestBody DishDTO dishDTO){
         log.info("新增菜品");
         dishService.save(dishDTO);
@@ -39,6 +41,7 @@ public class DishController {
     }
     @PostMapping("/status/{status}")
     @ApiOperation("起售或者禁售菜品")
+    @CacheEvict(cacheNames = "dishCache",allEntries = true)
     public Result StartOrStop(@PathVariable Integer status,Long id){
         DishDTO dishDTO=new DishDTO();
         dishDTO.setId(id);
@@ -50,9 +53,11 @@ public class DishController {
     }
     @DeleteMapping
     @ApiOperation("菜品的删除")
+    @CacheEvict(cacheNames = "dishCache",allEntries = true)
     public Result deleteById(@RequestParam  List<Long> ids){
         dishService.deleteByIds(ids);
         return Result.success();
+
 
     }
     @GetMapping("/{id}")
@@ -63,15 +68,17 @@ public class DishController {
     }
     @PutMapping
     @ApiOperation("修改菜品")
+    @CacheEvict(cacheNames = "dishCache",allEntries = true)
     public Result updateWithDishFlavors(@RequestBody DishDTO dishDTO){
         dishService.update(dishDTO);
         return Result.success();
     }
     @GetMapping("/list")
     @ApiOperation("根据分类Id查询菜品")
-    public Result<List> getByCategoryId(Long categoryId){
-    List<Dish> dishes=dishService.getByCategoryId(categoryId);
-    return Result.success(dishes);
+    public Result<List<DishVO>> getByCategoryId(Long categoryId){
+        List<DishVO> dishes=dishService.getByCategoryId(categoryId);
+        return Result.success(dishes);
     }
+
 
 }
