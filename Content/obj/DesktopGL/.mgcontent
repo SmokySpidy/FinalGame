@@ -4,12 +4,32 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Administrator/Desktop/.Net/monogame1/Content/arrow.png</File>
-    <File>C:/Users/Administrator/Desktop/.Net/monogame1/Content/ball.png</File>
-    <File>C:/Users/Administrator/Desktop/.Net/monogame1/Content/NES - The Legend of Zelda - Link.png</File>
-    <File>C:/Users/Administrator/Desktop/.Net/monogame1/Content/SmileyWalk.png</File>
+    <File>E:/deeplearning/dotnet/FinalGame/Content/arrow.png</File>
+    <File>E:/deeplearning/dotnet/FinalGame/Content/BackGround.png</File>
+    <File>E:/deeplearning/dotnet/FinalGame/Content/ball.png</File>
+    <File>E:/deeplearning/dotnet/FinalGame/Content/block.png</File>
+    <File>E:/deeplearning/dotnet/FinalGame/Content/item1.png</File>
+    <File>E:/deeplearning/dotnet/FinalGame/Content/item2.png</File>
+    <File>E:/deeplearning/dotnet/FinalGame/Content/item3.png</File>
+    <File>E:/deeplearning/dotnet/FinalGame/Content/item4.png</File>
+    <File>E:/deeplearning/dotnet/FinalGame/Content/LinkDown.png</File>
+    <File>E:/deeplearning/dotnet/FinalGame/Content/LinkLeft.png</File>
+    <File>E:/deeplearning/dotnet/FinalGame/Content/LinkRight.png</File>
+    <File>E:/deeplearning/dotnet/FinalGame/Content/LinkUp.png</File>
+    <File>E:/deeplearning/dotnet/FinalGame/Content/NES - The Legend of Zelda - Link.png</File>
+    <File>E:/deeplearning/dotnet/FinalGame/Content/SmileyWalk.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
