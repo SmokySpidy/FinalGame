@@ -5,11 +5,31 @@
   <Config />
   <SourceFiles>
     <File>C:/Users/Administrator/Desktop/.Net/monogame1/Content/arrow.png</File>
+    <File>C:/Users/Administrator/Desktop/.Net/monogame1/Content/BackGround.png</File>
     <File>C:/Users/Administrator/Desktop/.Net/monogame1/Content/ball.png</File>
+    <File>C:/Users/Administrator/Desktop/.Net/monogame1/Content/LinkAttackD.png</File>
+    <File>C:/Users/Administrator/Desktop/.Net/monogame1/Content/LinkAttackL.png</File>
+    <File>C:/Users/Administrator/Desktop/.Net/monogame1/Content/LinkAttackR.png</File>
+    <File>C:/Users/Administrator/Desktop/.Net/monogame1/Content/LinkAttackU.png</File>
+    <File>C:/Users/Administrator/Desktop/.Net/monogame1/Content/LinkDown.png</File>
+    <File>C:/Users/Administrator/Desktop/.Net/monogame1/Content/LinkHurt.png</File>
+    <File>C:/Users/Administrator/Desktop/.Net/monogame1/Content/LinkLeft.png</File>
+    <File>C:/Users/Administrator/Desktop/.Net/monogame1/Content/LinkRight.png</File>
+    <File>C:/Users/Administrator/Desktop/.Net/monogame1/Content/LinkUp.png</File>
     <File>C:/Users/Administrator/Desktop/.Net/monogame1/Content/NES - The Legend of Zelda - Link.png</File>
     <File>C:/Users/Administrator/Desktop/.Net/monogame1/Content/SmileyWalk.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

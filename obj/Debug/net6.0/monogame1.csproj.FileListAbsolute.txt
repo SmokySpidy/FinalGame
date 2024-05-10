@@ -31,4 +31,10 @@ C:\Users\Administrator\Desktop\.Net\monogame1\bin\Debug\net6.0\Content\NES - The
 C:\Users\Administrator\Desktop\.Net\MonoGame1\bin\Debug\net6.0\Content\LinkRight.xnb
 C:\Users\Administrator\Desktop\.Net\MonoGame1\bin\Debug\net6.0\Content\LinkUp.xnb
 C:\Users\Administrator\Desktop\.Net\MonoGame1\bin\Debug\net6.0\Content\LinkLeft.xnb
+C:\Users\Administrator\Desktop\.Net\MonoGame1\obj\Debug\net6.0\monogame1.sourcelink.json
+C:\Users\Administrator\Desktop\.Net\MonoGame1\bin\Debug\net6.0\Content\LinkAttackR.xnb
 C:\Users\Administrator\Desktop\.Net\MonoGame1\bin\Debug\net6.0\Content\BackGround.xnb
+C:\Users\Administrator\Desktop\.Net\MonoGame1\bin\Debug\net6.0\Content\LinkAttackD.xnb
+C:\Users\Administrator\Desktop\.Net\MonoGame1\bin\Debug\net6.0\Content\LinkAttackU.xnb
+C:\Users\Administrator\Desktop\.Net\MonoGame1\bin\Debug\net6.0\Content\LinkAttackL.xnb
+C:\Users\Administrator\Desktop\.Net\MonoGame1\bin\Debug\net6.0\Content\LinkHurt.xnb

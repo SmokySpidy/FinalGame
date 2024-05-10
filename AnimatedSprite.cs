@@ -9,14 +9,18 @@ namespace monogame1
 {
     public class AnimatedSprite
     {
+
+      
         public Texture2D Texture { get; set; }
         public int Rows { get; set; }
         public int Columns { get; set; }
         private int currentFrame;
         private int totalFrames;
 
+        public int GetCurrentFrame() { return currentFrame; }
         public AnimatedSprite(Texture2D texture, int rows, int columns)
         {
+           
             Texture = texture;
             Rows = rows;
             Columns = columns;

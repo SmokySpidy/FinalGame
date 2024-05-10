@@ -3,60 +3,99 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|c:\\users\\administrator\\desktop\\.net\\monogame1\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\animatedsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:animatedsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|c:\\users\\administrator\\desktop\\.net\\monogame1\\link.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:link.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|c:\\users\\administrator\\desktop\\.net\\monogame1\\content\\background.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:content\\background.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\icon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:icon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|c:\\users\\administrator\\desktop\\.net\\monogame1\\content\\linkdown.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:content\\linkdown.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|c:\\users\\administrator\\desktop\\.net\\monogame1\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|c:\\users\\administrator\\desktop\\.net\\monogame1\\pom.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:pom.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\icon.bmp||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:icon.bmp||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\animatedsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:animatedsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|c:\\users\\administrator\\desktop\\.net\\monogame1\\monogame1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:monogame1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|c:\\users\\administrator\\desktop\\.net\\monogame1\\content\\linkleft.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\content\\linkhurt.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:content\\linkhurt.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\content\\linkleft.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:content\\linkleft.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|c:\\users\\administrator\\desktop\\.net\\monogame1\\content\\linkup.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:content\\linkup.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\content\\linkattackl.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:content\\linkattackl.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|c:\\users\\administrator\\desktop\\.net\\monogame1\\content\\linkright.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:content\\linkright.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\content\\linkattacku.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:content\\linkattacku.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\icon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:icon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\content\\linkattackd.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:content\\linkattackd.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\content\\linkdown.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:content\\linkdown.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\content\\background.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:content\\background.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\content\\nes - the legend of zelda - link.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:content\\nes - the legend of zelda - link.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\content\\linkattackr.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:content\\linkattackr.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\content\\arrow.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:content\\arrow.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\content\\ball.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:content\\ball.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\content\\smileywalk.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:content\\smileywalk.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\build\\MonoGame.Content.Builder.Task.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\icon.bmp||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:icon.bmp||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\content\\linkup.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:content\\linkup.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\content\\linkright.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:content\\linkright.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\content\\smileywalk.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{972759C0-FD73-470A-A78D-58641FF8B52A}|monogame1.csproj|solutionrelative:content\\smileywalk.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +105,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,104 +117,214 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BackGround.png",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\BackGround.png",
-              "RelativeDocumentMoniker": "Content\\BackGround.png",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\BackGround.png",
-              "RelativeToolTip": "Content\\BackGround.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-05-10T07:35:34.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LinkLeft.png",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkLeft.png",
-              "RelativeDocumentMoniker": "Content\\LinkLeft.png",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkLeft.png",
-              "RelativeToolTip": "Content\\LinkLeft.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-05-10T07:20:45.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LinkUp.png",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkUp.png",
-              "RelativeDocumentMoniker": "Content\\LinkUp.png",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkUp.png",
-              "RelativeToolTip": "Content\\LinkUp.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-05-10T07:16:08.022Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LinkRight.png",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkRight.png",
-              "RelativeDocumentMoniker": "Content\\LinkRight.png",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkRight.png",
-              "RelativeToolTip": "Content\\LinkRight.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-05-10T07:01:37.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LinkDown.png",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkDown.png",
-              "RelativeDocumentMoniker": "Content\\LinkDown.png",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkDown.png",
-              "RelativeToolTip": "Content\\LinkDown.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-05-10T06:56:31.506Z",
+              "Title": "pom.xml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\pom.xml",
+              "RelativeDocumentMoniker": "pom.xml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\pom.xml",
+              "RelativeToolTip": "pom.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-05-10T12:30:53.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Link.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Link.cs",
+              "RelativeDocumentMoniker": "Link.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Link.cs",
+              "RelativeToolTip": "Link.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAA0wCwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T12:29:44.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "monogame1",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\MonoGame1\\monogame1.csproj",
+              "RelativeDocumentMoniker": "monogame1.csproj",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\MonoGame1\\monogame1.csproj",
+              "RelativeToolTip": "monogame1.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-10T12:25:55.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Game1.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Game1.cs",
               "RelativeDocumentMoniker": "Game1.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Game1.cs",
               "RelativeToolTip": "Game1.cs",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAgwHEAAAAfAAAA",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAcwGQAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-03T07:18:45.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LinkHurt.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkHurt.png",
+              "RelativeDocumentMoniker": "Content\\LinkHurt.png",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkHurt.png",
+              "RelativeToolTip": "Content\\LinkHurt.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-10T09:27:07.513Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "LinkAttackL.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkAttackL.png",
+              "RelativeDocumentMoniker": "Content\\LinkAttackL.png",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkAttackL.png",
+              "RelativeToolTip": "Content\\LinkAttackL.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-10T09:16:08.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LinkAttackU.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkAttackU.png",
+              "RelativeDocumentMoniker": "Content\\LinkAttackU.png",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkAttackU.png",
+              "RelativeToolTip": "Content\\LinkAttackU.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-10T09:09:32.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LinkAttackR.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkAttackR.png",
+              "RelativeDocumentMoniker": "Content\\LinkAttackR.png",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkAttackR.png",
+              "RelativeToolTip": "Content\\LinkAttackR.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-10T08:56:12.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "arrow.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\arrow.png",
+              "RelativeDocumentMoniker": "Content\\arrow.png",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\arrow.png",
+              "RelativeToolTip": "Content\\arrow.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-10T08:54:39.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MonoGame.Content.Builder.Task.targets",
+              "DocumentMoniker": "C:\\Users\\Administrator\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\build\\MonoGame.Content.Builder.Task.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\build\\MonoGame.Content.Builder.Task.targets",
+              "ToolTip": "C:\\Users\\Administrator\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\build\\MonoGame.Content.Builder.Task.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\build\\MonoGame.Content.Builder.Task.targets",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAWwI0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-05-10T08:53:54.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LinkAttackD.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkAttackD.png",
+              "RelativeDocumentMoniker": "Content\\LinkAttackD.png",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkAttackD.png",
+              "RelativeToolTip": "Content\\LinkAttackD.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-10T08:22:18.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BackGround.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\BackGround.png",
+              "RelativeDocumentMoniker": "Content\\BackGround.png",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\BackGround.png",
+              "RelativeToolTip": "Content\\BackGround.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-10T07:35:34.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LinkLeft.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkLeft.png",
+              "RelativeDocumentMoniker": "Content\\LinkLeft.png",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkLeft.png",
+              "RelativeToolTip": "Content\\LinkLeft.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-10T07:20:45.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LinkUp.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkUp.png",
+              "RelativeDocumentMoniker": "Content\\LinkUp.png",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkUp.png",
+              "RelativeToolTip": "Content\\LinkUp.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-10T07:16:08.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LinkRight.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkRight.png",
+              "RelativeDocumentMoniker": "Content\\LinkRight.png",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkRight.png",
+              "RelativeToolTip": "Content\\LinkRight.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-10T07:01:37.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LinkDown.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkDown.png",
+              "RelativeDocumentMoniker": "Content\\LinkDown.png",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\LinkDown.png",
+              "RelativeToolTip": "Content\\LinkDown.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-10T06:56:31.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "ball.png",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\ball.png",
               "RelativeDocumentMoniker": "Content\\ball.png",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\ball.png",
               "RelativeToolTip": "Content\\ball.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-05-10T03:05:21.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T03:05:21.806Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "NES - The Legend of Zelda - Link.png",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\NES - The Legend of Zelda - Link.png",
               "RelativeDocumentMoniker": "Content\\NES - The Legend of Zelda - Link.png",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\NES - The Legend of Zelda - Link.png",
               "RelativeToolTip": "Content\\NES - The Legend of Zelda - Link.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-05-10T02:57:51.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T02:57:51.103Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "SmileyWalk.png",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Content\\SmileyWalk.png",
               "RelativeDocumentMoniker": "Content\\SmileyWalk.png",
@@ -186,44 +335,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "AnimatedSprite.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\AnimatedSprite.cs",
               "RelativeDocumentMoniker": "AnimatedSprite.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\AnimatedSprite.cs",
               "RelativeToolTip": "AnimatedSprite.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAwCAAAAAYAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T01:04:45.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
               "Title": "Icon.bmp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Icon.bmp",
               "RelativeDocumentMoniker": "Icon.bmp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Icon.bmp",
               "RelativeToolTip": "Icon.bmp",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-05-03T08:06:56.618Z"
+              "WhenOpened": "2024-05-03T08:06:56.618Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAALAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAIAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-03T07:18:47.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Icon.ico - Icon [256x256, 32 \u4F4D, PNG]",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\Icon.ico",
               "RelativeDocumentMoniker": "Icon.ico",
@@ -235,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "app.manifest",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\.Net\\monogame1\\app.manifest",
               "RelativeDocumentMoniker": "app.manifest",
