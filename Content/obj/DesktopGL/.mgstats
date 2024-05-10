@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/Administrator/Desktop/.Net/monogame1/Content/arrow.png","C:/Users/Administrator/Desktop/.Net/monogame1/Content/bin/DesktopGL/arrow.xnb","TextureProcessor","Texture2DContent",2024,16085,0.3935525
+"C:/Users/Administrator/Desktop/.Net/monogame1/Content/ball.png","C:/Users/Administrator/Desktop/.Net/monogame1/Content/bin/DesktopGL/ball.xnb","TextureProcessor","Texture2DContent",8368,16469,0.0055851
+"C:/Users/Administrator/Desktop/.Net/monogame1/Content/NES - The Legend of Zelda - Link.png","C:/Users/Administrator/Desktop/.Net/monogame1/Content/bin/DesktopGL/NES - The Legend of Zelda - Link.xnb","TextureProcessor","Texture2DContent",19462,460125,0.0216677
+"C:/Users/Administrator/Desktop/.Net/monogame1/Content/SmileyWalk.png","C:/Users/Administrator/Desktop/.Net/monogame1/Content/bin/DesktopGL/SmileyWalk.xnb","TextureProcessor","Texture2DContent",40026,262229,0.0120135

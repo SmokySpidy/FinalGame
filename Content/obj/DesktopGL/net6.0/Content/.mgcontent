@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/arrow.png</File>
+    <File>C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/BackGround.png</File>
+    <File>C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/ball.png</File>
+    <File>C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/LinkDown.png</File>
+    <File>C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/LinkLeft.png</File>
+    <File>C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/LinkRight.png</File>
+    <File>C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/LinkUp.png</File>
+    <File>C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/NES - The Legend of Zelda - Link.png</File>
+    <File>C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/SmileyWalk.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
