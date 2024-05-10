@@ -1,0 +1,27 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: jiayou666
+  alioss:
+    access-key-id: LTAI5tFjoKK7NZL13KVvmAaB
+    access-key-secret: qHBNfiI4AOIPBHKnx6aoxR4Ed6UK7H
+    endpoint: oss-cn-beijing.aliyuncs.com
+    bucket-name: yun-0428
+  wechat:
+    appid: wxfd817975735e0085
+    secret: 231d3289f4f1eb31075ab0ec9fc30760
+    mchid: 1561414331
+    mchSerialNo: 4B3B3DC35414AD50B1B755BAF8DE9CC7CF407606
+    apiV3Key: CZBK51236435wxpay435434323FFDuv3
+    notifyUrl: http://78e94fcd.r10.vip.cpolar.cn/notify/paySuccess
+    refundNotifyUrl: http://78e94fcd.r10.vip.cpolar.cn/notify/refundSuccess
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    password: h386998086
+    database: 10

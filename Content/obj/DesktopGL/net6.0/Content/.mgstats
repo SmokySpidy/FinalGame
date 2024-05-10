@@ -1,0 +1,10 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/arrow.png","C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/bin/DesktopGL/Content/arrow.xnb","TextureProcessor","Texture2DContent",2024,16085,0.2885695
+"C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/BackGround.png","C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/bin/DesktopGL/Content/BackGround.xnb","TextureProcessor","Texture2DContent",83806,1920085,0.2534219
+"C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/ball.png","C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/bin/DesktopGL/Content/ball.xnb","TextureProcessor","Texture2DContent",8368,16469,0.0032865
+"C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/LinkDown.png","C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/bin/DesktopGL/Content/LinkDown.xnb","TextureProcessor","Texture2DContent",27894,263253,0.1978846
+"C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/LinkLeft.png","C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/bin/DesktopGL/Content/LinkLeft.xnb","TextureProcessor","Texture2DContent",27476,262229,0.1921179
+"C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/LinkRight.png","C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/bin/DesktopGL/Content/LinkRight.xnb","TextureProcessor","Texture2DContent",83194,263253,0.1975342
+"C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/LinkUp.png","C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/bin/DesktopGL/Content/LinkUp.xnb","TextureProcessor","Texture2DContent",63634,261205,0.1942512
+"C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/NES - The Legend of Zelda - Link.png","C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/bin/DesktopGL/Content/NES - The Legend of Zelda - Link.xnb","TextureProcessor","Texture2DContent",19462,460125,0.0187449
+"C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/SmileyWalk.png","C:/Users/Administrator/Desktop/.Net/MonoGame1/Content/bin/DesktopGL/Content/SmileyWalk.xnb","TextureProcessor","Texture2DContent",40026,262229,0.0122984
