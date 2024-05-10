@@ -1,5 +1,15 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/Administrator/Desktop/.Net/monogame1/Content/arrow.png","C:/Users/Administrator/Desktop/.Net/monogame1/Content/bin/DesktopGL/arrow.xnb","TextureProcessor","Texture2DContent",2024,16085,0.3935525
-"C:/Users/Administrator/Desktop/.Net/monogame1/Content/ball.png","C:/Users/Administrator/Desktop/.Net/monogame1/Content/bin/DesktopGL/ball.xnb","TextureProcessor","Texture2DContent",8368,16469,0.0055851
-"C:/Users/Administrator/Desktop/.Net/monogame1/Content/NES - The Legend of Zelda - Link.png","C:/Users/Administrator/Desktop/.Net/monogame1/Content/bin/DesktopGL/NES - The Legend of Zelda - Link.xnb","TextureProcessor","Texture2DContent",19462,460125,0.0216677
-"C:/Users/Administrator/Desktop/.Net/monogame1/Content/SmileyWalk.png","C:/Users/Administrator/Desktop/.Net/monogame1/Content/bin/DesktopGL/SmileyWalk.xnb","TextureProcessor","Texture2DContent",40026,262229,0.0120135
+"E:/deeplearning/dotnet/FinalGame/Content/arrow.png","E:/deeplearning/dotnet/FinalGame/Content/bin/DesktopGL/arrow.xnb","TextureProcessor","Texture2DContent",2024,16085,0.5203453
+"E:/deeplearning/dotnet/FinalGame/Content/BackGround.png","E:/deeplearning/dotnet/FinalGame/Content/bin/DesktopGL/BackGround.xnb","TextureProcessor","Texture2DContent",83806,1920085,0.1140291
+"E:/deeplearning/dotnet/FinalGame/Content/ball.png","E:/deeplearning/dotnet/FinalGame/Content/bin/DesktopGL/ball.xnb","TextureProcessor","Texture2DContent",8368,16469,0.0039399
+"E:/deeplearning/dotnet/FinalGame/Content/block.png","E:/deeplearning/dotnet/FinalGame/Content/bin/DesktopGL/block.xnb","TextureProcessor","Texture2DContent",2552,16085,0.00327
+"E:/deeplearning/dotnet/FinalGame/Content/item1.png","E:/deeplearning/dotnet/FinalGame/Content/bin/DesktopGL/item1.xnb","TextureProcessor","Texture2DContent",13137,265301,0.013487
+"E:/deeplearning/dotnet/FinalGame/Content/item2.png","E:/deeplearning/dotnet/FinalGame/Content/bin/DesktopGL/item2.xnb","TextureProcessor","Texture2DContent",14925,326857,0.0183821
+"E:/deeplearning/dotnet/FinalGame/Content/item3.png","E:/deeplearning/dotnet/FinalGame/Content/bin/DesktopGL/item3.xnb","TextureProcessor","Texture2DContent",9791,148285,0.0098655
+"E:/deeplearning/dotnet/FinalGame/Content/item4.png","E:/deeplearning/dotnet/FinalGame/Content/bin/DesktopGL/item4.xnb","TextureProcessor","Texture2DContent",15234,235525,0.0176738
+"E:/deeplearning/dotnet/FinalGame/Content/LinkDown.png","E:/deeplearning/dotnet/FinalGame/Content/bin/DesktopGL/LinkDown.xnb","TextureProcessor","Texture2DContent",27894,263253,0.0147221
+"E:/deeplearning/dotnet/FinalGame/Content/LinkLeft.png","E:/deeplearning/dotnet/FinalGame/Content/bin/DesktopGL/LinkLeft.xnb","TextureProcessor","Texture2DContent",27476,262229,0.0147012
+"E:/deeplearning/dotnet/FinalGame/Content/LinkRight.png","E:/deeplearning/dotnet/FinalGame/Content/bin/DesktopGL/LinkRight.xnb","TextureProcessor","Texture2DContent",83194,263253,0.0162309
+"E:/deeplearning/dotnet/FinalGame/Content/LinkUp.png","E:/deeplearning/dotnet/FinalGame/Content/bin/DesktopGL/LinkUp.xnb","TextureProcessor","Texture2DContent",63634,261205,0.0146446
+"E:/deeplearning/dotnet/FinalGame/Content/NES - The Legend of Zelda - Link.png","E:/deeplearning/dotnet/FinalGame/Content/bin/DesktopGL/NES - The Legend of Zelda - Link.xnb","TextureProcessor","Texture2DContent",19462,460125,0.0185326
+"E:/deeplearning/dotnet/FinalGame/Content/SmileyWalk.png","E:/deeplearning/dotnet/FinalGame/Content/bin/DesktopGL/SmileyWalk.xnb","TextureProcessor","Texture2DContent",40026,262229,0.0114292
